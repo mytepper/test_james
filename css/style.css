@@ -1,0 +1,193 @@
+@font-face{ 
+	font-family:"Roboto-Light"; 
+	src: url('../assets/fonts/Roboto-Light.ttf'); 
+	src: url('../assets/fonts/Roboto-Light.ttf?#iefix') format('embedded-opentype'), 
+	url('../assets/fonts/Roboto-Light.ttf') format('woff'), 
+	url('../assets/fonts/Roboto-Light.ttf') format('truetype'), 
+	url('../assets/fonts/Roboto-Light.ttf#webfont') format('svg'); 
+}
+
+body{
+	font-size: 2em;
+	font-family: "Roboto-Light";
+	top:0px;
+	left:0px;
+	color:#000;
+	margin:0px;
+	background-color: #fff;
+}
+*{
+	font-family: "Roboto-Light";
+}
+
+[class*="col-"] {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.left{
+	float: left;
+}
+.clear{
+	clear: both;
+}
+
+img.full{
+	width:100%;
+}
+
+/**************
+***
+*
+*
+*
+*
+*
+*
+*/
+.container-full{
+	width:100%;
+}
+
+.section{
+	margin:5px;
+	min-height: 50px;
+}
+
+.section .arrow{
+	width:20%;
+}
+.section .text{
+	width:60%;
+}
+.section .text p{
+ 	padding-top: 10px;
+}
+.section .icon{
+	width:20%;
+	text-align: right;
+}
+
+/*title*/
+
+.title{
+	color:#fff;
+}
+.title p{
+	margin-top: 7px;
+}
+.title .col1{
+	width:20%;
+	background-color:#63358b;
+	text-align: center;
+}
+.title .col2 p{
+	padding-left: 10px;
+}
+.title .col2{
+	width:80%;
+	background-color:#459c74;
+}
+
+/*Questions*/
+
+.questions{
+	margin-top:30px;
+	background-color:#652e8e;
+	min-height: 100px;
+	color:#fff;
+}
+.questions .col-lg-12{
+	margin-top: 10px;
+}
+.questions .head{
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.questions p{
+	margin-top: 7px;
+}
+.questions .col1{
+	width:20%;
+	text-align: left;
+}
+.questions .col2 p{
+	padding-left: 10px;
+}
+.questions .col2{
+	width:80%;
+}
+
+/*Solution*/
+
+
+.solution{
+	margin-top: -10px;
+	background-color:#d1c9ba;
+	min-height: 100px;
+	color:#000;
+}
+.solution .col-lg-12{
+	margin-top: 10px;
+}
+.solution .head{
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.solution p{
+	margin-top: 7px;
+}
+.solution .col1{
+	width:20%;
+	text-align: center;
+}
+.solution .col2 p{
+	padding-left: 10px;
+}
+.solution .col2 p span{color:#e35a33;}
+.solution .col2{
+	width:80%;
+}
+.solution button.number{
+	background-color: #e35a33;
+	color:#fff;
+	width:50px;
+	text-align: center;
+	border: none;
+	font-size:1.5em;
+}
+
+/**/
+
+
+/*Questions*/
+
+.tips{
+	margin-top:-10px;
+	background-color:#e35a33;
+	min-height: 100px;
+	color:#fff;
+}
+.tips .col-lg-12{
+	margin-top: 10px;
+}
+.tips .head{
+	font-size: 1.5em;
+	font-weight: 700;
+}
+
+.tips p{
+	margin-top: 7px;
+}
+.tips .col1{
+	width:20%;
+	text-align: left;
+}
+.tips .col2 p{
+	padding-left: 10px;
+}
+.tips .col2{
+	width:80%;
+}
